@@ -1,0 +1,19 @@
+{
+  "name": "dicer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": "12.13.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/ahmed-com/socket-test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
