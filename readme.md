@@ -1,0 +1,2 @@
+# Game Rules :
+In each turn, a player gets to roll the dice as many times as he wants and hold the value he wants, but if he gets 1 the round score becomes 0 and it becomes the next players turn. the first player reaches 100 wins the game.
