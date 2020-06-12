@@ -15,6 +15,7 @@ const Game = require('./Game')(io);
 app.use(express.static(publicPath));
 io.on('connection',socket =>{
     socket.on('join',({name,room},ack)=>{
+        socket.join(room);
         const error = Game.join({room,name,socket});
         if (error) return ack(error);
     })
