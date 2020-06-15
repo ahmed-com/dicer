@@ -1,7 +1,7 @@
 module.exports = io =>{
 
     const games = {};
-    const threshold = 20;
+    const threshold = 50;
     const falseRoll = 6;
     
     class Game{
